@@ -271,7 +271,11 @@ switch (publicationMetadata.$schema) {
 #### `AccessCondition`
 
 ```ts
-import { AccessCondition, ConditionType, PublicationMetadataSchema } from '@digiv3rse-protocol/metadata';
+import {
+  AccessCondition,
+  ConditionType,
+  PublicationMetadataSchema,
+} from '@digiv3rse-protocol/metadata';
 
 const publicationMetadata = PublicationMetadataSchema.parse(valid);
 

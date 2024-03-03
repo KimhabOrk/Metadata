@@ -36,6 +36,7 @@
     "clean:jsonschemas": "rimraf jsonschemas",
     "clean:dist": "rimraf dist",
     "clean:docs": "rimraf docs",
+    "lint:fix": "eslint --fix && prettier --write .",
     "lint": "pnpm lint:prettier && pnpm lint:eslint && pnpm lint:typecheck",
     "lint:eslint": "pnpm eslint",
     "lint:typecheck": "tsc --noEmit",
