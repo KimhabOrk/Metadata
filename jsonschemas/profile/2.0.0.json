@@ -54,12 +54,12 @@
         "id"
       ],
       "additionalProperties": false,
-      "description": "The DiGiV3rse specific metadata details."
+      "description": "The DiGi specific metadata details."
     },
     "signature": {
       "type": "string",
       "minLength": 1,
-      "description": "A cryptographic signature of the DiGiV3rse metadata."
+      "description": "A cryptographic signature of the DiGi metadata."
     }
   },
   "required": [

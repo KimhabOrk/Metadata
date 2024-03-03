@@ -25,12 +25,12 @@
         "appId"
       ],
       "additionalProperties": false,
-      "description": "The DiGiV3rse operational metadata fields."
+      "description": "The DiGi operational metadata fields."
     },
     "signature": {
       "type": "string",
       "minLength": 1,
-      "description": "A cryptographic signature of the DiGiV3rse metadata."
+      "description": "A cryptographic signature of the DiGi metadata."
     }
   },
   "required": [
