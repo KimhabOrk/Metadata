@@ -44,4 +44,4 @@ jobs:
           access_key_id: ${{ secrets.ACCESS_KEY_ID }}
           secret_access_key: ${{ secrets.ACCESS_SECRET_KEY }}
           bucket: ${{ secrets.BUCKET }}
-          destination: '/'
+          destination: 'jsonschemas/*'
