@@ -24,8 +24,6 @@ jobs:
     
       - run: pnpm lint:fix
 
-      - run: pnpm lint
-
       - run: pnpm build
 
   deploy:
